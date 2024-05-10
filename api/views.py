@@ -35,3 +35,13 @@ def product_detail(request, pk):
         product.delete()
         return HttpResponse(status=204)
 
+
+
+
+
+# from django.views import View 대신 사용할 패키지
+# from rest_framework.views import APIView 
+
+# class SearchView(APIView):
+#     def get(self, request):
+#         return JsonResponse(result, status=200)

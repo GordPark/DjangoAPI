@@ -1,4 +1,5 @@
 import json
+from rest_framework import serializers
 
 def serialize_product(product):
     return {
